@@ -1,0 +1,16 @@
+Following problem is kaggle online challange held earlier.
+Download the datset attached or go to dataset link on kaggle https://www.kaggle.com/therohk/million-headlines  >> dataset path
+
+Step taken:
+1>Loading the dataset and keeping only 50k document entry.(not recommanded,please use as many as you can)
+2>Loading required libraries
+3>Cleaning the dataset(data preprocessing)
+4>Applying cleaning operation on headlines heading and keeping all document entry in list of words each
+5>Creating dictionary from processed_data, keeping all unique words with id and removing words those did not appear in minimum 15 document and occured more then 50% of document 
+6>BOW creation (for text to number)
+7>TFIDF creation
+8>LDA algorithm implementation using BOW
+9>LDA algorithm implementation using TFIDF
+10>Evalueating using BOW(model evalueation) on seen data
+11>Evalueating using TFIDF(model evalueation) on seen data
+12>Testing our model againest unseen document
